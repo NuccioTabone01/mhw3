@@ -1,0 +1,250 @@
+
+#header{
+    color: white;
+    background-image: url(https://dr.savee-cdn.com/things/6/2/c031b7619a50dbd91609ef.webp);
+    background-size: cover;
+    background-position: center;
+    height: 500px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    line-height: normal;
+    font-weight: 250;
+    text-transform: uppercase;
+  
+}
+
+#nascondi{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+ .titolo{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+
+
+  
+#bible-view {
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+  
+  
+
+
+@media (max-width: 900px) {
+    #articoli{
+        font-size:0.5rem;
+        margin: 0px 10px ; 
+        width: calc(100% - 20px);
+    }
+
+    .link{
+        display:none;
+    }
+
+    .button{
+        display:none;
+    }
+
+    #articoli{
+        margin: 0px 100px;
+        width: calc(100% -  20px);
+    }
+
+     .punto{
+         width: 20px;
+         margin: 10px;
+     }
+   }
+
+#profilo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: none;
+    margin-top: -50px;
+    margin-bottom: 60px;
+    
+}
+
+
+#profilo img{
+  
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#profilo p{
+    margin: 0 ;
+}
+
+header nav{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    z-index: 1;
+    font-size: 20px;
+
+}
+
+.link {
+    margin: 10px;
+}
+
+
+
+#overlay {
+    background-color:
+      rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+a.button{
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+a.button:hover {
+    background-color: white;
+    color:black;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+body {
+    color: white;
+    font-family: 'Teko', sans-serif;   
+    font-style: normal;
+    letter-spacing: 1px;
+    background-color: rgb(38, 36, 36);
+    margin: 0;
+}
+
+#articoli {
+    width: calc(66.67% + 56px) ;
+    height: auto;
+    margin-left:auto ;
+    margin-right: auto;
+    display: flex;
+    text-transform: none;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.articolo img{ 
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.articolo{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 56px);
+    align-items: center;
+}
+
+form{
+    margin:20px;
+
+}
+
+#search{
+    text-transform: uppercase;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    font-size: 20px;
+
+}
+
+#bibbia{
+    text-transform: uppercase;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    font-size: 20px;
+    background-color: rgb(89, 89, 89);;
+}
+
+
+
+
+
+.articolo p{
+    margin-bottom: 0;
+    margin-top: 20px ;
+    width: 100%;
+    text-align: justify;
+    height: auto;
+    font-size: 20px;
+    font-weight:10;
+    line-height: 150%;
+}
+
+.elemento{
+    margin-bottom: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.punto{
+    width: 16px;
+    margin-right: 40px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.articolo h1{
+    color: white;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+#footer {
+    background-color: black;
+    color:rgb(116, 116, 116);
+    padding: 75px;
+    text-align: center;
+    font-size: 17px;
+    text-transform: none;
+}
+
